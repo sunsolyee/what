@@ -1,7 +1,7 @@
 #include <ncurses.h>
 #include "snake.h"
 
-int main() {
+int main(int argc, char** argv) {
     initscr();            // Initialize the window
     cbreak();             // Disable line buffering
     noecho();             // Don't echo() while we do getch
