@@ -89,4 +89,3 @@ void SnakeGame::logic() {
             snake.pop_back();
         }
     }
-}
