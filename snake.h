@@ -4,16 +4,16 @@
 #include <deque>
 #include <ncurses.h>
 
-struct Point {
-    int x, y;
-};
-
 class SnakeGame {
 public:
     SnakeGame();
     void run();
 
 private:
+    struct Point {
+        int x, y;
+    };
+
     void draw();
     void input();
     void logic();
