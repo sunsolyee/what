@@ -9,7 +9,10 @@ int main() {
     keypad(stdscr, TRUE); // Enable F1, F2 etc...
     timeout(100);         // Set a delay for getch()
 
+    // Create an instance of the SnakeGame class
     SnakeGame game;
+
+    // Run the game
     game.run();
 
     endwin();             // End curses mode
