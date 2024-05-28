@@ -58,6 +58,7 @@ void SnakeGame::input() {
     }
 }
 
+
 void SnakeGame::logic() {
     // Move the snake
     Point newHead = snake.front();
@@ -89,3 +90,4 @@ void SnakeGame::logic() {
             snake.pop_back();
         }
     }
+}
